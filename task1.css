@@ -1,0 +1,88 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper{
+    gap: 3rem;
+    display: flex;
+    padding-top: 0.6rem;
+   flex-wrap: wrap;
+    width: 100vw;
+   min-height: 90vh;
+    padding: 4rem 5rem ;
+    justify-content: center;
+    /* background-color:aqua ; */
+
+}
+.box{
+    width: 20rem;
+    min-height: 38vh;
+    /* border: 1px solid black; */
+    /* gap: 2rem; */
+    /* background-color: lightcoral; */
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 1rem 0 gray;
+
+}
+.image{
+    width:100%;
+    min-height: 20vh;
+    background-color: purple;
+    background: url(./nature.jpg);
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-size: cover;
+    
+    
+
+}
+.para1{
+    padding-bottom: 1.2rem;
+    color: gray;
+  font-size: 1.1rem;
+}
+
+.content{
+    text-align: center;
+    width:100%;
+    min-height: 15vh;
+    background-color: white;
+
+}
+
+
+.head{
+   padding: 1rem;
+   font-family: fantasy;
+   font-size: 1.5rem;
+}
+.btn{
+    padding:0.5rem 0.7rem 0.5rem 0.5rem;
+    margin-top: 2rem;
+    background-color: whitesmoke;
+ border-color: gray;
+ border: none;
+ border-radius: 0.1rem;
+ border :1px solid gray;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.card {
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+/* media query for 1375px */
+@media screen  and (max-width:1375px){
+    .btn{
+        margin-top: 0rem;
+    }
+    
+}
